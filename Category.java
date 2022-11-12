@@ -14,7 +14,6 @@ public class Category {
         this.Videos = new ArrayList<Video>();
     }
     public Category(){
-
     }
 
     public Video findVideo(String title){
