@@ -6,14 +6,14 @@ public class Main {
 
         Category Category = new Category("Category1","AC/DC");
 
-        Category.addVideo("TNT",4.5);
-        Category.addVideo("Highway to hell",3.5);
+        Category.addVideo("Game of Thrones",4.5);
+        Category.addVideo("Breaking Bad",3.5);
         Category.addVideo("ThunderStruck",5.0);
         Categorys.add(Category);
 
         Category = new Category("Category2","Eminem");
 
-        Category.addVideo("Rap god",4.5);
+        Category.addVideo("House of the Dragon",4.5);
         Category.addVideo("Not Afraid",3.5);
         Category.addVideo("Lose yourself",4.5);
 
@@ -21,9 +21,9 @@ public class Main {
 
         LinkedList<Video> playList_1 = new LinkedList<>();
 
-        Categorys.get(0).addToPlayList("TNT",playList_1);
-        Categorys.get(0).addToPlayList("Highway to hell",playList_1);
-        Categorys.get(1).addToPlayList("Rap god",playList_1);
+        Categorys.get(0).addToPlayList("Game of Thrones",playList_1);
+        Categorys.get(0).addToPlayList("Breaking Bad",playList_1);
+        Categorys.get(1).addToPlayList("House of the Dragon",playList_1);
         Categorys.get(1).addToPlayList("Lose yourself",playList_1);
 
         play(playList_1);
