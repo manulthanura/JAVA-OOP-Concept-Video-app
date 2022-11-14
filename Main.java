@@ -1,3 +1,9 @@
+// Import the LinkedList class
+import java.util.LinkedList;
+
+// import the ArrayList class
+import java.util.ArrayList; 
+
 public class Main {
 
     private static ArrayList<Category> Categorys = new ArrayList<>();
