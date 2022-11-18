@@ -1,6 +1,3 @@
-package app;
-
-
 
 public class Video {
     private String title;

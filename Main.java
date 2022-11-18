@@ -1,4 +1,3 @@
-package app;
 
 // Import the LinkedList class
 import java.util.LinkedList;
