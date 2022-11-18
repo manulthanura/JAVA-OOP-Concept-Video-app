@@ -5,7 +5,7 @@ public class Video {
     private double duration;
     private int rate;
 
-    public Video(String title, String description, double duration, Int rate) {
+    public Video(String title, String description, double duration, int rate) {
         this.title = title;
         this.description = description;
         this.duration = duration;
@@ -27,7 +27,7 @@ public class Video {
         return duration;
     }
 
-    public Int getRate() {
+    public int getRate() {
         return rate;
     }
 
