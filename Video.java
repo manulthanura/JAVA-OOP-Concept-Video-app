@@ -3,7 +3,7 @@ public class Video {
     private String title;
     private String description;
     private double duration;
-    private Int rate;
+    private int rate;
 
     public Video(String title, String description, double duration, Int rate) {
         this.title = title;
