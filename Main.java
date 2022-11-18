@@ -1,3 +1,5 @@
+package com.abhay;
+
 // Import the LinkedList class
 import java.util.LinkedList;
 
