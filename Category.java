@@ -25,8 +25,8 @@ public class Category {
 
     public boolean addVideo(String title, double duration){
         if(findVideo(title) == null){
-            Videos.add(new Video(title,duration));
-//            System.out.println(title + "successfully added to the list");
+            // Videos.add(new Video(title,duration));
+           System.out.println(title + "successfully added to the list");
             return true;
         }
         else {
