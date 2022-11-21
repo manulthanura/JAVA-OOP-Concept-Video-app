@@ -6,7 +6,7 @@ public class Users {
         String user = input.nextLine();
         System.out.print("Enter Password: ");
         String pass = input.nextLine();
-        if (user.equalsIgnoreCase("jas") && pass.equals("1224")) {
+        if (user.equalsIgnoreCase("manul") && pass.equals("12345")) {
             System.out.print("\nWelcome! " + user);
         } else {
             System.out.print("You don't have access!");

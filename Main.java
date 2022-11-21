@@ -108,6 +108,9 @@ public class Main {
         long category;
         int index;
 
+        // Users user = new Users();
+        // Need to add user class here to get the user name
+
         System.out.println("Welcome to the my video streaming app!");
         System.out.print("Please enter your name : ");
         userName = input.nextLine();
